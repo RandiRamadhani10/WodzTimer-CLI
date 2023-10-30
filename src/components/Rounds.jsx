@@ -12,10 +12,10 @@ const Rounds = ({navigation}) => {
           <Text style={styles.buttonText}>Up</Text>
         </TouchableOpacity> */}
         <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>1</Text>
+          <Text style={styles.buttonText}>5</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>3</Text>
+          <Text style={styles.buttonText}>10</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.button}>
           <Text style={styles.buttonText}>15</Text>
@@ -27,10 +27,10 @@ const Rounds = ({navigation}) => {
           <Text style={styles.buttonText}>Down</Text>
         </TouchableOpacity> */}
         <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>1</Text>
+          <Text style={styles.buttonText}>20</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>3</Text>
+          <Text style={styles.buttonText}>30</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.button}
