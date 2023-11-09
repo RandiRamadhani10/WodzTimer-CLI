@@ -1,13 +1,14 @@
 import React from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+import {View, StyleSheet, Text, Dimensions, Image} from 'react-native';
 import Icon from 'react-native-vector-icons/Entypo';
+const screen = Dimensions.get('screen');
 const Header = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>
-        W<Icon name="stopwatch" size={28} />
-        Dz
-      </Text>
+      <Image
+        source={require('../assets/logowodztimer.png')}
+        style={styles.image}
+      />
     </View>
   );
 };
@@ -19,6 +20,10 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     backgroundColor: '#F5F9FA',
     elevation: 10,
+  },
+  image: {
+    width: screen.width * 0.29,
+    height: screen.width * 0.12,
   },
   text: {
     fontSize: 24,

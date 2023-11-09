@@ -1,5 +1,10 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Routes from './src/routes/routes';
-export default function App() {
+import SplashScreen from 'react-native-splash-screen';
+const App = () => {
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
   return <Routes />;
-}
+};
+export default App;
